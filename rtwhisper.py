@@ -106,6 +106,5 @@ def main():
     transcription = app.run_and_get_transcription()
     # print("\nTranscription result:")
     print(transcription)
-
 if __name__ == "__main__":
     main()

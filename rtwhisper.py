@@ -44,6 +44,8 @@ class AudioRecorder:
             f.write(wav_bytes)
         # print(f"File saved as {filename}")
 
+
+
 #transcriber class
 class AudioTranscriber:
     def __init__(self, groq_client: Groq):

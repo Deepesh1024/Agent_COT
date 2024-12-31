@@ -69,4 +69,3 @@ def reframe_question(question: str) -> str:
 
 
 # if __name__ == "__main__":
-#     response = reframe_question("What are your key skills?")

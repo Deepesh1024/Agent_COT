@@ -13,6 +13,7 @@ class Config:
                 f"Environment variable '{env_variable_name}' not found."
             )
 
+#model function
 class GroqClientManager:
     def __init__(self, api_key: str):
         self.api_key = api_key

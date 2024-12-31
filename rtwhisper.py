@@ -59,7 +59,7 @@ class AudioTranscriber:
         )
         return transcription.text
 
-#managing files
+# creating files
 class FileManager:
     @staticmethod
     def delete_file(filename: str) -> None:
@@ -69,6 +69,8 @@ class FileManager:
         else:
             print(f"\nF ile '{filename}' not found (already deleted or never created).")
 
+
+#transctription
 class TranscriptionApp:
     def __init__(
         self,

@@ -15,6 +15,8 @@ def on_error(error: aai.RealtimeError):
     print("An error occured:", error)
 def on_close():
     print("Closing Session")
+
+
 transcriber = aai.RealtimeTranscriber(
     sample_rate=16_000,
     on_data=on_data,
@@ -22,6 +24,8 @@ transcriber = aai.RealtimeTranscriber(
     on_open=on_open,
     on_close=on_close,
 )
+
+#connenction 
 transcriber.connect()
 microphone_stream = aai.extras.MicrophoneStream(sample_rate=16_000)
 transcriber.stream(microphone_stream)

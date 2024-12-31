@@ -84,6 +84,7 @@ class TranscriptionApp:
         self.audio_transcriber = AudioTranscriber(self.groq_manager.client)
         self.output_filename = output_filename
 #delete the voice after transcription
+    
     def run_and_get_transcription(self) -> str:
         self.audio_recorder.record_until_silence(filename=self.output_filename)
         # print("\nSending audio to Groq for transcription...")

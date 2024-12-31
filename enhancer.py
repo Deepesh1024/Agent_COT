@@ -2,7 +2,7 @@ import os
 import warnings
 from dotenv import load_dotenv
 
-# Updated imports
+
 from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_openai.embeddings import OpenAIEmbeddings

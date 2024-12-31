@@ -2,6 +2,8 @@ import assemblyai as aai
 import os 
 API_KEY = os.environ["AAI_API_KEY"]
 aai.settings.api_key = API_KEY
+
+#functions 
 def on_open(session_opened: aai.RealtimeSessionOpened):
     print("Session ID:", session_opened.session_id)
 def on_data(transcript: aai.RealtimeTranscript):

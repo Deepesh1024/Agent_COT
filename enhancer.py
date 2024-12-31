@@ -67,7 +67,7 @@ def reframe_question(question: str) -> str:
     reframed_question = qa_chain.run(question)
     return reframed_question
 
-# # Example usage:
+
 # if __name__ == "__main__":
 #     response = reframe_question("What are your key skills?")
 #     print(response)

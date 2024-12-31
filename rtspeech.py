@@ -16,7 +16,7 @@ def on_error(error: aai.RealtimeError):
 def on_close():
     print("Closing Session")
 
-
+#transcriber
 transcriber = aai.RealtimeTranscriber(
     sample_rate=16_000,
     on_data=on_data,

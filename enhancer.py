@@ -9,7 +9,7 @@ from langchain_openai.embeddings import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain_groq import ChatGroq
 from langchain.chains import RetrievalQA
-# Prompt imports
+
 from langchain.prompts.chat import (
     ChatPromptTemplate,
     SystemMessagePromptTemplate,

@@ -19,6 +19,7 @@ httpx_logger.setLevel(logging.WARNING)
 # API
 API_KEY = os.environ["GROQ_API_KEY"]
 
+#agent loading
 agent1 = ChatGroq(
     model= "llama-3.3-70b-versatile",
     api_key= API_KEY

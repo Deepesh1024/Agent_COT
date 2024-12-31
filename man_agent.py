@@ -96,5 +96,5 @@ def conversation_agent2(role, ques, resp, para):
     agent3_response = reframe_question(agent2_response.content)
     print(agent3_response)
     
-    
+
 conversation_agent1()

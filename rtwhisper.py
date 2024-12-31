@@ -83,6 +83,7 @@ class TranscriptionApp:
         self.audio_recorder = AudioRecorder(pause_threshold)
         self.audio_transcriber = AudioTranscriber(self.groq_manager.client)
         self.output_filename = output_filename
+        
 #delete the voice after transcription
     
     def run_and_get_transcription(self) -> str:

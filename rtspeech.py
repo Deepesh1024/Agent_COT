@@ -1,4 +1,5 @@
 import assemblyai as aai
+
 aai.settings.api_key = "7146d293771846f795310354293b3994"
 def on_open(session_opened: aai.RealtimeSessionOpened):
     print("Session ID:", session_opened.session_id)

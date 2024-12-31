@@ -59,6 +59,7 @@ class AudioTranscriber:
         )
         return transcription.text
 
+#managing files
 class FileManager:
     @staticmethod
     def delete_file(filename: str) -> None:

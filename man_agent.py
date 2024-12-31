@@ -68,6 +68,8 @@ prompt2 = ChatPromptTemplate.from_messages([
 """)
 ])
 
+
+#output functions
 def conversation_agent1():
     i = 0
     presp = []

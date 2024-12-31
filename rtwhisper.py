@@ -3,6 +3,7 @@ import speech_recognition as sr
 from groq import Groq
 from dotenv import load_dotenv
 
+
 class Config:
     def __init__(self, env_variable_name="GROQ_API_KEY"):
         load_dotenv()  # Load environment variables from .env if present

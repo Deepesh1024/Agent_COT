@@ -93,6 +93,7 @@ class TranscriptionApp:
         FileManager.delete_file(self.output_filename)
         return text
 
+
 def main():
     """
     Entry point if running this script directly.

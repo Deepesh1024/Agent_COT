@@ -26,17 +26,6 @@ agent1 = ChatGroq(
     api_key= API_KEY
 )
 
-# agent1 = ChatOpenAI(
-#     model_name= "gpt-4o",
-#     api_key= "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"
-# )
-
-# agent2 = ChatOpenAI(
-#     model_name= "gpt-4o",
-#     api_key= "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"
-# )
-
-
 agent2 = ChatGroq(
     model= "llama-3.3-70b-versatile",
     api_key= API_KEY

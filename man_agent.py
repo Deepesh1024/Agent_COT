@@ -9,7 +9,6 @@ import os
 load_dotenv()
 
 #loggers
-
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 

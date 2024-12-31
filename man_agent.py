@@ -16,6 +16,7 @@ httpx_logger = logging.getLogger("httpx")
 httpx_logger.setLevel(logging.WARNING) 
 
 
+# API
 API_KEY = os.environ["GROQ_API_KEY"]
 
 agent1 = ChatGroq(

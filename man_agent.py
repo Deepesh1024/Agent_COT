@@ -30,7 +30,7 @@ agent2 = ChatGroq(
     api_key= API_KEY
 )
 
-
+#agenda 
 agenda = [
 "Greetings", 
 "Ask for the introduction : ",

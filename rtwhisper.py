@@ -72,6 +72,7 @@ class FileManager:
             print(f"\nF ile '{filename}' not found (already deleted or never created).")
 
 
+
 #transctription
 class TranscriptionApp:
     def __init__(

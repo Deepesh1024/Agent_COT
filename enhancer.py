@@ -66,6 +66,3 @@ def reframe_question(question: str) -> str:
     )
     reframed_question = qa_chain.run(question)
     return reframed_question
-
-
-# if __name__ == "__main__":

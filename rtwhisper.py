@@ -22,6 +22,7 @@ class GroqClientManager:
     def _create_groq_client(self) -> Groq:
         return Groq(api_key=self.api_key)
 
+#recorder function
 class AudioRecorder:
     def __init__(self, pause_threshold: float = 1.0):
         self.pause_threshold = pause_threshold
